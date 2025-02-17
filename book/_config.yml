@@ -7,7 +7,7 @@ execute:
 only_build_toc_files: true
 
 html:
-  baseurl :  "https://oit.tudelft.nl/" #Replace this with your own URL
+  baseurl :  "https://oit.tudelft.nl/glass-reuse-open-database/" #Replace this with your own URL
 
 sphinx:
   config:
@@ -19,7 +19,7 @@ sphinx:
     html_theme_options:
       logo:
         text: TU Delft GitHub OIT Template
-      repository_url: "https://github.com/TUDelft-books/repo" #add your own repo URL here
+      repository_url: "https://github.com/TUDelft-books/glass-reuse-open-database" #add your own repo URL here
       path_to_docs: "book"
       repository_branch: "main"
       use_edit_page_button: true
