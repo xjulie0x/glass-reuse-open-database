@@ -2,11 +2,10 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: Contents
+  - caption: Methods
     chapters:
-    - file: pages/overview.md
-      sections:
-      - file: pages/text_and_code.ipynb
+    - file: pages/method_1.ipynb
+    - file: pages/method_2.ipynb
     - file: exercises
       sections:
       - file: exercises/001.md
