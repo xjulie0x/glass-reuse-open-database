@@ -4,10 +4,6 @@ author: Author from Delft University of Technology, built with <a href="https://
 execute:
   execute_notebooks: "off"
 
-parse:
-  myst_enable_extensions:
-    - html_admonition
-    - html_image
 
 only_build_toc_files: true
 
@@ -24,6 +20,7 @@ sphinx:
     html_theme_options:
       logo:
         text: "Open GLASSroom - Glass Reuse Open Database"
+        image: "palm.jpeg"
       repository_url: "https://github.com/TUDelft-books/glass-reuse-open-database" #add your own repo URL here
       path_to_docs: "book"
       repository_branch: "main"
