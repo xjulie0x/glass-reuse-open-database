@@ -18,7 +18,7 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/*.md","**/*.png","**/*.svg","**/*.jpeg","**/*.png","**/*.html"]
     html_theme_options:
-      logo: "_static/images/palm.jpeg" 
+      logo: "_static/images/palm.jpeg"
       repository_url: "https://github.com/TUDelft-books/glass-reuse-open-database" #add your own repo URL here
       path_to_docs: "book"
       repository_branch: "main"
