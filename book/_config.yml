@@ -4,6 +4,11 @@ author: Author from Delft University of Technology, built with <a href="https://
 execute:
   execute_notebooks: "off"
 
+parse:
+  myst_enable_extensions:
+    - html_admonition
+    - html_image
+
 only_build_toc_files: true
 
 html:
